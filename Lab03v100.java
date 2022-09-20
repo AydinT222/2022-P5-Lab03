@@ -9,12 +9,12 @@ public class Lab03v100 {
         System.out.println();
         System.out.println("Starting milli-seconds:\t" + startingValue);
         int hours = startingSeconds / 3600;
-        System.out.println("Hours:\t\t\t" + hours);
+        System.out.println("Hours:\t\t\t\t\t" + hours);
         int minutes = (startingSeconds % 3600) / 60;
-        System.out.println("Minutes:\t\t" + minutes);
+        System.out.println("Minutes:\t\t\t\t" + minutes);
         int seconds = (startingSeconds % 3600) % 60;
-        System.out.println("Seconds:\t\t" + seconds);
+        System.out.println("Seconds:\t\t\t\t" + seconds);
         int milliseconds = startingValue % 1000; // not documented on the lab
-        System.out.println("Milliseconds:\t\t" + milliseconds);
+        System.out.println("Milliseconds:\t\t\t" + milliseconds);
     }
 }
